@@ -60,6 +60,6 @@ public class Main
 
         carDistance = gasTank * fuelEff;
         hundredCost = (gasPrice * 100) / fuelEff;
-                System.out.println("The cost per 100 miles with the gas left in the tank is: " + hundredCost + " and the car is able to go " + carDistance + " miles with the gas left in the tank.");
+                System.out.println("The cost per 100 miles is: " + hundredCost + " and the car is able to go " + carDistance + " miles with the gas left in the tank.");
         }
 }
